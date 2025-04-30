@@ -17,4 +17,8 @@ public class PersonaRepository {
         System.out.println(personas.toString());
         return persona;
     }
+
+    public List<Persona> readAll(){
+        return personas;
+    }
 }
