@@ -20,6 +20,7 @@ public class PersonaRepository {
     personas.add(new Persona(4, "45678921-3", "Tomas", "Cortes", 19));
     personas.add(new Persona(5, "19874562-0", "Mauricio", "Gajardo", 20));
    }
+   
     public Persona create(Persona persona){
         personas.add(persona);
         System.out.println(personas.toString());
@@ -33,6 +34,15 @@ public class PersonaRepository {
     public Persona read(int id){
         for(Persona persona : personas){
             if(persona.getId()==id){
+                return persona;
+            }
+        }
+        return null;
+    }
+
+    public Persona readxRut(String rut){
+        for(Persona persona : personas){
+            if(persona.getRut().equals(rut)){
                 return persona;
             }
         }
