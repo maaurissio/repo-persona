@@ -15,7 +15,7 @@ public class PersonaRepository {
    PersonaRepository(){
     //Agregar las personas a la lista
     personas.add(new Persona(1, "12345678-9", "Wacoldo", "Soto", 45));
-    personas.add(new Persona(2, "23456780-1", "Vicente", "Colicheo",20));
+    personas.add(new Persona(2, "23456780-1", "Vicnte", "Colicheo",20));
     personas.add(new Persona(3, "98765432-1", "Lucas", "Sanchez", 19));
     personas.add(new Persona(4, "45678921-3", "Tomas", "Cortes", 19));
     personas.add(new Persona(5, "19874562-0", "Mauricio", "Gajardo", 20));
